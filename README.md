@@ -19,10 +19,12 @@ Here's what I'm going to go over
 
 
 How it works:
+
 Essentially, the program runs an Annual_budget class, which holds all 
 of the data for a list of Month_budget classes.
 You can create a new budget, or continue an old budget, just by choosing the
-corresponding choice in the startup menu.
+corresponding choice in the startup menu. To run the program, run the 'main.py'
+file, but you will need the 'annual_budget.py' and 'monthly_budget.py' in the same folder
 
 The program reads the data into a text file in the same folder as the python script to hold it while the program isn't running.
 There isn't a whole lot of data, so I didn't think it was necessary to make a whole database for it. When the program starts up again,
